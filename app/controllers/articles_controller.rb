@@ -1,4 +1,9 @@
 class ArticlesController < ApplicationController
+
+  def index
+    @articles = Article.all
+  end
+
   def new
     @article=Article.new
   end
@@ -8,7 +13,7 @@ class ArticlesController < ApplicationController
   end
 
   def create
-    @article= Article.new(article_params)
+    @article = Article.new(article_params)
     if @article.save
       flash[:notice]="Article Was Created"
       redirect_to article_path(@article)
