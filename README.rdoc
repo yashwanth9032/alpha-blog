@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/yashwanth9032/alpha-blog.svg?branch=master)](https://travis-ci.org/yashwanth9032/alpha-blog)
+{<img src="https://travis-ci.org/yashwanth9032/alpha-blog.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/yashwanth9032/alpha-blog]
